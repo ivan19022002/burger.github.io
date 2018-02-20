@@ -114,7 +114,7 @@ $(document).ready(function() {
     e.preventDefault();
 
    var $this = $(this),
-       item = $this.closest('.menu-acco__item'),
+       item = $this.closest('.team-acco__item'),
        list = $this.closest('.team-acco'),
        items = list.find('.team-acco__item'),
        content = item.find('.team-acco__content'),
